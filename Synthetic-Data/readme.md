@@ -48,5 +48,6 @@ The data are saved in:
    Feel free to adapt to your preferred settings,  
    e.g. you can omit the MM baseline included in the basis-set (chomit(X)='Mac') and use LCModel own MMs (nsimul=1/remove any omit on MM09/20/... peaks)
     
+### 5. Add-ons on ground truth
 
- 
+Phase and frequency drifts (freq_shifts.csv, phase_shifts.csv; or in the "ground_truth_freq_phas_conc.mat", all_dyn_phase and all_dyn_freq) applied to the ground truth data + relative concentrations at b=0 (metab_bo.txt, in the format of a json file; or in the "ground_truth_freq_phas_conc.mat", the structure metab_b0).
