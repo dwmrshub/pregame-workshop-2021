@@ -50,4 +50,4 @@ The data are saved in:
     
 ### 5. Add-ons on ground truth
 
-Phase and frequency drifts (freq_shifts.csv, phase_shifts.csv; or in the "ground_truth_freq_phas_conc.mat", all_dyn_phase and all_dyn_freq) applied to the ground truth data + relative concentrations at b=0 (metab_bo.txt, in the format of a json file; or in the "ground_truth_freq_phas_conc.mat", the structure metab_b0).
+Phase and frequency drifts (freq_shifts.csv, phase_shifts.csv; or in the "ground_truth_freq_phas_conc.mat", all_dyn_phase and all_dyn_freq) applied to the ground truth data + relative concentrations at b=0 (metab_bo.txt, in the format of a json file; or in the "ground_truth_freq_phas_conc.mat", the structure metab_b0). The grounds truth decay for all metabolites can be found in GT_decay.mat (matlab structure) or decay_metab.txt (json). 
