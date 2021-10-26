@@ -1,5 +1,7 @@
 ### Ground truth files
 
+Units: phase (rad), frequency (Hz)
+
 ## matlab
 
 * Phase and frequency drifts: ground_truth_freq_phas_conc.mat, tables all_dyn_phase and all_dyn_freq. Shifts applied to the ground truth data.
