@@ -1,6 +1,7 @@
 ### Ground truth files
 
-Units: phase (rad), frequency (Hz)
+Units: phase (rad), frequency (Hz).
+
 For the phase and frequency drifts data, you will find 32x51 values. Data were initially simulated at 51 b-values [0:1:50]. To keep only the b-values of interest you must select the columns 1 2 4 7 11 21 31 41 51, corresponding to the b-values 0 1 3 6 10 20 30 40 50, and therefore work with the expected 32x9 values.   
 
 ## matlab
